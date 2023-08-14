@@ -9,6 +9,7 @@ export function StorageStack({ stack, app }) {
         },
         primaryIndex: { partitionKey: "userId", sortKey: "noteId" },
     });
+    
     return {
         table,
     };
